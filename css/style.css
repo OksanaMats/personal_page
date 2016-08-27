@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.header{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background: url(/images/vershyna.jpg) no-repeat top;
+    background-size: 100%;
+    /*background-color: red;*/
+    clear: both;
+    list-style-type: none;
+}
+.topmenu{
+    position: relative;
+    height:30px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.topmenu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+    left:50%;
+    float:left;
+    font:20px "Palatino Linotype";
+    height:30px
+}
+.topmenu ul li {
+    position:relative;
+    left:-50%;
+    float:left;
+    margin:0 5px;
+    height:30px
+}
+.topmenu ul li a {
+    display:block;
+    text-decoration:none;
+    padding:4px 10px;
+    color: white;
+}
+.topmenu ul li a:hover {
+    text-decoration: underline;
+}
+.slogan{
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	margin-top: 100px;
+}
+.slogan h1{
+	font:30px "Palatino Linotype";
+	color: white;
+}
+.topnav{
+    position: absolute;
+    bottom: 0;
+    height:70px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.topnav ul li{
+    display: inline-block;
+}
+.topnav ul li a{
+    padding: 10px;
+}
+
+/*.container{
+    background-color: blue;
+}*/
