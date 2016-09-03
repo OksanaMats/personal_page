@@ -55,21 +55,23 @@
 	color: white;
 }
 .topnav{
+    
     position: absolute;
     bottom: 0;
     height:70px;
     padding: 10px;
-    margin: 0 auto;
+    left: 40%;
 }
 .topnav ul li{
     display: inline-block;
 }
 .topnav ul li a{
-    padding: 10px;}
+    padding: 10px;
+}
     
 .about {
     margin: 50px 50px;
-    background-color: #2B2B2B;
+    background-color: #B982CD;
     height: 600px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -96,8 +98,72 @@
 	text-align: left;
 	width: 800px;
 }
-.button a{
+.button a input{
     margin: 10px;
     padding: 10px;
-    
+    font:18px "Palatino Linotype";
+    color: white;
+    background-color: blue;
+    border:none;
+    border-radius: 10px;
+}
+#myskills {
+    background-color: #97CEB3;
+    height: 300px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    /*background-color: red;*/
+}
+#myskills h1{
+   font:30px "Palatino Linotype";
+    color: white; 
+    text-align: center;
+}
+#gallery{
+    background-color: #FCF7B4;
+    height: 350px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+#gallery h1{
+    font:30px "Palatino Linotype";
+    color: white; 
+    text-align: center;
+}
+#gallery a img{    
+    -webkit-border-radius: 25px;
+    -moz-border-radius:  25px;
+    border-radius:  25px;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transition: all 1.0s ease;
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+    margin-right:5px; 
+    padding:10px;
+    display:inline-block;
+    height:150px; 
+}
+#gallery a img:hover{
+    -moz-opacity: 1;
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+}
+#gallery a:focus img{
+    position: relative;
+    height:300px; 
+    cursor: pointer; 
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transition: all 1.0s ease;
+}
+#gallery a{
+    outline:0; border:0;
 }
