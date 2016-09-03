@@ -167,3 +167,49 @@
 #gallery a{
     outline:0; border:0;
 }
+.contact{
+    background-color: #B2EF89;
+    height: 250px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.contact h1{
+    font:30px "Palatino Linotype";
+    color: white; 
+    text-align: center;
+}
+.contact-form .left{
+   margin: 20px;
+   padding: 20px;
+}
+.contact-form .right{
+    position: absolute;
+    right: 30%;
+}
+.left div{
+    padding: 10px;
+}
+.right div{
+    margin-bottom: 120px;
+}
+.contact span label{
+    font:18px "Palatino Linotype";
+    color: white; 
+}
+.contact div input{
+    font:20px "Palatino Linotype";
+    color: #B2EF89; 
+    background-color: white;
+}
+.footer{
+    background-color: #EFCC8F;
+    height: 50px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
