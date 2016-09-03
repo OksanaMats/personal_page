@@ -68,7 +68,6 @@
 .topnav ul li a{
     padding: 10px;
 }
-    
 .about {
     margin: 50px 50px;
     background-color: #B982CD;
@@ -103,9 +102,18 @@
     padding: 10px;
     font:18px "Palatino Linotype";
     color: white;
-    background-color: blue;
+    background-color: #850FDF;
     border:none;
     border-radius: 10px;
+}
+.button a input:hover{
+     margin: 10px;
+    padding: 10px;
+    font:18px "Palatino Linotype";
+    color: white;
+    background-color:#4E0883;
+    border:none;
+    border-radius: 10px
 }
 #myskills {
     background-color: #97CEB3;
