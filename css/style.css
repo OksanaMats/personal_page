@@ -68,6 +68,7 @@
 .topnav ul li a{
     padding: 10px;
 }
+
 .about {
     margin: 50px 50px;
     background-color: #B982CD;
@@ -176,41 +177,68 @@
     outline:0; border:0;
 }
 .contact{
-    background-color: #B2EF89;
-    height: 250px;
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    overflow: hidden;
-    position: relative;
+    height: 450px;
+    background-color: #44DAC1;
 }
 .contact h1{
+    padding-top: 20px;
     font:30px "Palatino Linotype";
     color: white; 
     text-align: center;
 }
-.contact-form .left{
-   margin: 20px;
-   padding: 20px;
-}
-.contact-form .right{
-    position: absolute;
-    right: 30%;
-}
-.left div{
-    padding: 10px;
-}
-.right div{
-    margin-bottom: 120px;
-}
-.contact span label{
-    font:18px "Palatino Linotype";
-    color: white; 
-}
-.contact div input{
+.label {
     font:20px "Palatino Linotype";
-    color: #B2EF89; 
-    background-color: white;
+    color: white; 
+    margin-bottom: 20px;
+}
+.contact-form input[type="text"], .contact-form textarea {
+    width: 80%;
+    border: 1px solid #ddd;
+    outline: none;
+    background: #fff;
+    padding: 15px 18px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0px 0 7px 0;
+}
+.contact-form textarea {
+  height: 220px;
+  resize: none;
+  margin: 0em 0 0.5em 0;
+}
+.contact-form input[type="submit"] {
+  outline: none;
+  padding: 0.7em 0.7em;
+  color: #fff;
+  background: #58BCAB;
+  text-transform: uppercase;
+  font-weight:500;
+  font-size: 0.95em;
+  display: block;
+  width: 20%;
+  margin-right: 95px;
+  border: none;
+  float: right;
+}
+.contact-form input[type="submit"]:hover {
+  text-decoration: none;
+  background:#0EBA9E;
+}
+.contact-form {
+  padding: 3em 0 1em 0;
+}
+  
+form.left{
+    float: left;
+    width: 49%;
+    padding-left: 20px;
+}
+form.right{
+    float: right;
+    width: 49%;
 }
 .footer{
     background-color: #EFCC8F;
