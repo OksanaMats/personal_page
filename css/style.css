@@ -4,13 +4,14 @@
 }
 .header{
     position: relative;
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url(../images/vershyna.jpg) no-repeat top;
     background-size: 100%;
     /*background-color: red;*/
     clear: both;
     list-style-type: none;
+   
 }
 .topmenu{
     position: relative;
@@ -25,7 +26,7 @@
     position: relative;
     left:50%;
     float:left;
-    font:20px "Palatino Linotype";
+    font:22px "Palatino Linotype";
     height:30px
 }
 .topmenu ul li {
@@ -48,7 +49,7 @@
 	height: 100%;
 	text-align: center;
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 .slogan h1{
 	font:30px "Palatino Linotype";
@@ -57,7 +58,7 @@
 .topnav{
     
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     height:70px;
     padding: 10px;
     left: 40%;
@@ -70,31 +71,32 @@
 }
 
 .about {
-    margin: 50px 50px;
-    background-color: #B982CD;
+    margin:50px;
+    background-color: white;
     height: 600px;
-    padding-top: 40px;
     padding-bottom: 40px;
     overflow: hidden;
-    /*background-color: red;*/
 }
 #aboutme h1{
+    margin:10px;
     text-align: center;
-    font:30px "Palatino Linotype";
-	color: white;
+    font:45px "Palatino Linotype";
+	color: #554961;
 }
 #aboutme img{
     width: 30%;
+    margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 40px;
     float:left;
 }
 .text{
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 450px;
     padding:30px;
     font:18px "Palatino Linotype";
-	color: white;
+	color: #554961;
 	text-align: left;
 	width: 800px;
 }
@@ -103,7 +105,7 @@
     padding: 10px;
     font:18px "Palatino Linotype";
     color: white;
-    background-color: #850FDF;
+    background-color: #6F627C;
     border:none;
     border-radius: 10px;
 }
@@ -112,13 +114,13 @@
     padding: 10px;
     font:18px "Palatino Linotype";
     color: white;
-    background-color:#4E0883;
+    background-color:#4E4755;
     border:none;
     border-radius: 10px
 }
 #myskills {
-    background-color: #97CEB3;
-    height: 300px;
+    background-color: white;
+    height: 400px;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -126,11 +128,11 @@
     /*background-color: red;*/
 }
 #myskills h1{
-   font:30px "Palatino Linotype";
-    color: white; 
+   font:45px "Palatino Linotype";
+    color: #4B3D58; 
     text-align: center;
 }
-#gallery{
+/*#gallery{
     background-color: #FCF7B4;
     height: 350px;
     width: 100%;
@@ -175,26 +177,30 @@
 }
 #gallery a{
     outline:0; border:0;
-}
+}*/
 .contact{
     width: 100%;
     height: 450px;
-    background-color: #44DAC1;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.contact-form{
+    position: relative;
 }
 .contact h1{
     padding-top: 20px;
-    font:30px "Palatino Linotype";
-    color: white; 
+    font:45px "Palatino Linotype";
+	color: #554961; 
     text-align: center;
 }
 .label {
     font:20px "Palatino Linotype";
-    color: white; 
+    color: #554961; 
     margin-bottom: 20px;
 }
 .contact-form input[type="text"], .contact-form textarea {
     width: 80%;
-    border: 1px solid #ddd;
+    border: 1px dotted #554961;
     outline: none;
     background: #fff;
     padding: 15px 18px;
@@ -205,27 +211,27 @@
     margin: 0px 0 7px 0;
 }
 .contact-form textarea {
-  height: 220px;
-  resize: none;
-  margin: 0em 0 0.5em 0;
+    height: 220px;
+    resize: none;
+    margin: 0em 0 0.5em 0;
 }
 .contact-form input[type="submit"] {
-  outline: none;
-  padding: 0.7em 0.7em;
-  color: #fff;
-  background: #58BCAB;
-  text-transform: uppercase;
-  font-weight:500;
-  font-size: 0.95em;
-  display: block;
-  width: 20%;
-  margin-right: 95px;
-  border: none;
-  float: right;
+    outline: none;
+    padding: 0.7em 0.7em;
+    color: #fff;
+    background: #4E4755;
+    text-transform: none;
+    font-weight:500;
+    font-size: 0.95em;
+    display: block;
+    width: 20%;
+    margin-right: 95px;
+    border: none;
+    float: right;
 }
 .contact-form input[type="submit"]:hover {
   text-decoration: none;
-  background:#0EBA9E;
+  background:#5A585C;
 }
 .contact-form {
   padding: 3em 0 1em 0;
@@ -234,18 +240,22 @@
 form.left{
     float: left;
     width: 49%;
-    padding-left: 20px;
+    padding-left: 40px;
+    margin-bottom: 50px;
 }
 form.right{
-    float: right;
     width: 49%;
 }
 .footer{
-    background-color: #EFCC8F;
-    height: 50px;
+    background-color:  #554961;
+    height: 5px;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
     overflow: hidden;
-    position: relative;
+    
+}
+.foot{
+    color: white;
+    text-align: center;
 }
