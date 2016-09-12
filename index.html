@@ -3,109 +3,146 @@
     <head>
         <title>Oksana Matsevko</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     </head>
     <body>
-        <header class="header">
-            <a name="home"></a>
+        <header class="header" id="home">
+            <div class="container">
             <nav class="topmenu">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#myskills">Skills</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+                </ul>
             </nav>
             <div class="slogan">
                 <h1>
-                    I`m Oksana Matsevko.I want to get a new profession,<br> in order to get it, I study HTML, CSS and JavaScript.<br> I will help you to create your own webpage soon.
+                    I`m Oksana Matsevko.I want to get a new profession, in order to get it, I study HTML, CSS and JavaScript. I will help you to create your own webpage soon.
                 </h1>
             </div>
             <nav class="topnav">
                 <ul>
-                <li><a href="https://www.instagram.com/oksanavengrun" target="_blank"><img src="images/instagram.png" width="50"  height="50" alt="Instagram"></a></li>
-                <li><a href="https://www.facebook.com/oksana.vengrynovych"  target="_blank"> <img src="images/facebook.png" width="50" height="50" alt="Facebook"></a></li>
-                <li><a href="https://github.com/OksanaMats" target="_blank"><img src="images/github.png" width="50" height="50" alt="Git"></a></li>
+                   <!--<li class="font"><a><i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></a></i></li>-->
+                    <li><a href="https://www.instagram.com/oksanavengrun" target="_blank"><img src="images/instagram.png" width="50"  height="50" alt="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/oksana.vengrynovych"  target="_blank"> <img src="images/facebook.png" width="50" height="50" alt="Facebook"></a></li>
+                    <li><a href="https://github.com/OksanaMats" target="_blank"><img src="images/github.png" width="50" height="50" alt="Git"></a></li>
                 </ul>
             </nav>
+            </div>
         </header>
-        <div class="about">
+        <div class="about container" id="about">
             <section id="aboutme">
-                <a name="about"></a>
                 <h1>About me</h1>
-                <img src="images/myphoto.jpg" alt="myphoto">
-                <article class="text">
-                    <h4>Привіт! Мене звати Оксана і я вивчаю HTML, CSS і JavaScript.</h4><br>
-		        	<p>Найближчим часом я планую стати професійним веб-розробником.</p><br>
-			        <p>Я наполегливо працюю і скоро зможу виконувати роботу на високому рівні.</p><br>
-			        <p>Це попередній варіант тексту. Буде допрацьований і англійською мовою.</p><br>
-                </article>
-                <div class="button">
-                    <a  href="#" class="download">
-                        <input type="button" value="Download Resume">
-                    </a>
+                <div class="about-inside">
+                    <img src="images/mmyphoto.jpg" alt="myphoto">    
+                    <article class="text">
+                            <h4>Hey there! My name is Oksana and I am studying HTML, CSS and JavaScript.</h4>
+        		        	<p>I am planing to become a professional web developer any time soon.</p>
+        			        <p>I am working hard and will do my job on highest level very soon.</p>
+        			        <div class="frame-text-button">
+        			        <a  href="#" class="button">Download Resume</a>
+        			        </div>
+                    </article>
                 </div>
             </section>
         </div>
         <div id=myskills>
-            <a name="skills"></a>
             <section>
                 <h1>Skills</h1>
+                <div class="skills-row">
+					<div class="skills-wrapper">
+						<div class="skills-container">
+							<div class="skill">
+								<div class="inner"><div class="count-block"><span class="timer" data-to="45" data-speed="3000">0</span>%</div></div>
+								<div class="progress" data-speed="3000" data-to="45"></div>
+							</div>
+						</div>
+						<div class="title">
+							HTML
+						</div>
+					</div>
+						<div class="skills-wrapper">
+							<div class="skills-container">
+								<div class="skill">
+									<div class="inner"><div class="count-block"><span class="timer" data-to="35" data-speed="3000">0</span>%</div></div>
+									<div class="progress" data-to="35" data-speed="3000"></div>
+								</div>
+							</div>
+							<div class="title">
+								CSS
+							</div>
+						</div>
+						<div class="skills-wrapper">
+							<div class="skills-container">
+								<div class="skill">
+									<div class="inner"><div class="count-block"><span class="timer" data-to="25" data-speed="3000">0</span>%</div></div>
+									<div class="progress" data-to="25" data-speed="3000"></div>
+								</div>
+							</div>
+							<div class="title">
+								JavaScript
+							</div>								
+						</div>
+						<div class="skills-wrapper">
+							<div class="skills-container">
+								<div class="skill">
+									<div class="inner"><div class="count-block"><span class="timer" data-to="50" data-speed="3000">0</span>%</div></div>
+									<div class="progress" data-to="50" data-speed="3000"></div>
+								</div>
+							</div>
+							<div class="title">
+								English
+							</div>						
+						</div>
+						
+				</div>		
             </section>
-        </div>
-        <!--<div id=gallery>
-            <section>
-                    <h1>Gallery</h1>
-                <div class="gallery">
-                    <a tabindex="1"><img src="images/apple.jpg" alt="apple"></a>
-                    <a tabindex="2"><img src="images/orange.jpg" alt="orange"></a>
-                    <a tabindex="3"><img src="images/inzyr.jpg" alt="inzyr"></a>
-                    <a tabindex="4"><img src="images/marakuia.jpg" alt="marakuia"></a>
-                    <a tabindex="5"><img src="images/strawberry.jpg" alt="strawberry"></a>
-                </div>
-            </section>
-        </div>-->
-		<div class="contact">
-		    <a name="contact"></a>
+        </div>   
+		<div class="contact" id="contactme">
 		        <h1>Contact Me</h1>
 			<div class="contact-form">
 				<form class="left">
-			        <div>
-					    <span><label class='label'>NAME</label></span><br>
-					    <span><input name="userName" type="text" class="textbox" id="name"></span>
-				    </div>
-				    <div>
-					    <span><label class='label'>E-MAIL</label></span><br>
-					    <span><input name="userEmail" type="text" class="textbox" id="email"></span>
-					</div>
-					 <div>					    	
-					    <span><label class='label'>SUBJECT</label></span><br>
-					    <span><textarea name="userMsg" id="msg"> </textarea></span><br>
-					</div>
-				    <div>
-					    <input type="submit" value="Submit " id="btn-send" />
-					</div>
-				</form>
+					    	    <p class="comment-form-author"><label for="author">Your Name:</label>
+					    	    	<input type="text" class="textbox" id="name" value="Enter your name here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your name here...';}">
+						    	</p>
+						        <p class="comment-form-author"><label for="author">Email:</label>
+						     	   <input type="text" class="textbox" id="email" value="Enter your email here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						        </p>
+						        <p class="comment-form-author"><label for="author">Message:</label>
+						    	  <textarea  id="msg" value="Enter your message here..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Enter your message here...</textarea>
+						        </p>
+						        <input type="submit" id="submit" value="Submit">
+					        </form>
 				<div class="right">
 				    <h4>My location</h4>
-				    <p>Roksoliany street, Lviv, Ukraine</p><br>
+				    <p>Lviv, Ukraine</p><br>
 				    <br>
 				    <h4>Email</h4>
 				    <p>oksanavengrun@gmail.com</p><br>
 				    <h4>Phone</h4>
 				    <p>+380939500635</p><br>
+				    
 				</div>
 					<div class="clearfix"></div>
 			</div>
 			
 		</div>
-		
+				<p id="back-top">
+					<a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+				</p>
 		<footer class='footer'>
 		    <div class="foot">
 		        <p>&copy 2016</p>
 		    </div>
 		</footer>
-		 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.viewportchecker.js"></script>
+    
+
     </body>
 </html>
